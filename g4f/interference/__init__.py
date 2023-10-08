@@ -91,4 +91,4 @@ def chat_completions():
     return app.response_class(streaming(), mimetype='text/event-stream')
 
 def run_interference():
-    app.run(host='0.0.0.0', port=1337, debug=True)
+    app.run(host='0.0.0.0', port=10000, debug=True)
