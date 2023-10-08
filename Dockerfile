@@ -29,7 +29,7 @@ COPY . /app/
 # Install additional requirements specific to the interference module/package.
 RUN pip install -r etc/interference/requirements.txt
 
-# Expose port 10000
+# Expose  port 10000
 EXPOSE 10000
 
 # Define the default command to run the app using Python's module mode.
