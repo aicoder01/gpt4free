@@ -13,7 +13,7 @@ CORS(app)
 
 @app.route('/')
 def index():
-    return 'interference api, url: http://127.0.0.1:1337'
+    return 'interference api, url: http://127.0.0.1:10000'
 
 @app.route('/chat/completions', methods=['POST'])
 def chat_completions():
